@@ -11,7 +11,10 @@
 
 header{
     background-color: #FFF8F3;
-    padding-top: 18px;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-top: 50px;
 }
 
 nav{
@@ -54,8 +57,81 @@ nav ul a{
     padding: 18px 35px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn:hover{
     background-color: #d75a01;
+}
+
+#banner{
+    /* border: 2px solid black; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+
+#banner .content{
+    max-width: 585px;
+}
+
+#banner .content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#banner .content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .content .b1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    align-content: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+#banner .content .b1:hover{
+    background-color: #d75a01;
+}
+
+#banner .content .b2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    align-content: center;
+    cursor: pointer;
+}
+
+#banner .content .b2:hover{
+    background-color: #d8cfc8;
 }
